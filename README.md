@@ -71,28 +71,3 @@ interface DAGEdge {
   label: string;
 }
 ```
-
-This README provides a good overview of your library, including:
-- A brief description of what it does
-- Key features
-- Installation instructions
-- Usage example with code
-- API documentation
-- Type definitions
-- Feature list
-- Contributing and license information
-
-The library itself is a React component that visualizes DAGs (Directed Acyclic Graphs) with the following key components:
-- DagVisualizer: The main component that renders the graph
-- CustomNode: A styled node component
-- layout.ts: Contains the layout algorithm using DFS to position nodes
-- types.ts: TypeScript definitions for the DAG structure
-
-The library uses ReactFlow as its foundation and adds:
-- Automatic layout calculation
-- Custom styled nodes
-- Animated edges
-- A clean, modern design
-- Type safety with TypeScript
-
-Would you like me to expand on any particular aspect of the README or the library itself?
